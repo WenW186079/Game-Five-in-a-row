@@ -56,5 +56,3 @@ Notes
 - The app stores rooms in memory; restarting the server clears rooms and history. If you want persistence, add a small file- or DB-backed store.
 - The repository includes a convenience `Undo` button that lets the player who last moved undo their move before the opponent plays.
 - For development, run the server locally and open the browser console to see logs.
-
-If you want, I can add a deploy script (example: GitHub Actions or Docker) and instructions for running on a VPS or Render/Fly.
