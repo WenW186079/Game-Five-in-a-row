@@ -1,4 +1,4 @@
-# Backgammon Web (simple)
+# Multiplayer Gomoku (Five in a Row) Web 
 
 Quick local multiplayer Gomoku (Five in a Row) scaffold using Node.js + Socket.IO.
 
