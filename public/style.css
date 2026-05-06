@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background:#f3f4f6; color:#111; }
+#app { max-width:1000px; margin:20px auto; }
+#controls { display:flex; gap:8px; align-items:center; margin-bottom:8px; }
+#info { margin-bottom:8px; }
+#board { background: #e0c8a0; border: 4px solid #5c3a1a; display:block; margin:8px auto 8px; width: min(96vw, 96vh); aspect-ratio:1/1; }
+#dice { font-size:20px; }
+#link { font-size:14px; color:#0366d6; }

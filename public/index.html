@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gomoku — Five in a Row</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Gomoku — Five in a Row</h1>
+      <div id="controls">
+        <input id="name" placeholder="Your name" />
+        <label for="boardSize">Board size:</label>
+        <input id="boardSize" type="number" min="9" max="25" step="1" value="15" style="width:68px" />
+        <button id="create">Create Room</button>
+        <button id="undo" title="Undo your last move">Undo</button>
+        <input id="roomId" placeholder="Room ID" />
+        <button id="join">Join Room</button>
+        <button id="roll" disabled>Roll Dice</button>
+        <div id="link"></div>
+      </div>
+      <div id="info"></div>
+      <div id="scores" style="margin-bottom:8px"></div>
+      <div id="history" style="font-size:13px;color:#333;max-height:120px;overflow:auto;margin-bottom:8px"></div>
+      <canvas id="board" width="600" height="600"></canvas>
+      <div id="dice"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

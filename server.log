@@ -1,0 +1,19 @@
+nohup: ignoring input
+Server listening on 3000
+[join] room=ipgm06 order=1 players=w status=waiting
+[join] room=ipgm06 order=2 players=w,g status=in-progress
+[move] room=ipgm06 by=UhjcSt8QZtrrWY5GAAAB name=w color=black x=9 y=7 status=in-progress
+[move] room=ipgm06 by=9O6rwwkGK4_aGq2SAAAD name=g color=white x=11 y=7 status=in-progress
+[move] room=ipgm06 by=UhjcSt8QZtrrWY5GAAAB name=w color=black x=9 y=6 status=in-progress
+[move] room=ipgm06 by=9O6rwwkGK4_aGq2SAAAD name=g color=white x=11 y=6 status=in-progress
+[move] room=ipgm06 by=UhjcSt8QZtrrWY5GAAAB name=w color=black x=13 y=7 status=in-progress
+[move] room=ipgm06 by=UhjcSt8QZtrrWY5GAAAB name=w color=black x=9 y=5 status=in-progress
+[move] room=ipgm06 by=9O6rwwkGK4_aGq2SAAAD name=g color=white x=15 y=5 status=in-progress
+[move] room=ipgm06 by=UhjcSt8QZtrrWY5GAAAB name=w color=black x=10 y=4 status=in-progress
+[move] room=ipgm06 by=9O6rwwkGK4_aGq2SAAAD name=g color=white x=17 y=3 status=in-progress
+[move] room=ipgm06 by=UhjcSt8QZtrrWY5GAAAB name=w color=black x=9 y=4 status=in-progress
+[move] room=ipgm06 by=9O6rwwkGK4_aGq2SAAAD name=g color=white x=7 y=7 status=in-progress
+[move] room=ipgm06 by=UhjcSt8QZtrrWY5GAAAB name=w color=black x=9 y=3 status=in-progress
+[round] new round started in room=ipgm06 after win by=w
+[disconnect] room=ipgm06 removed=UhjcSt8QZtrrWY5GAAAB remaining=1
+[disconnect] room=ipgm06 removed=9O6rwwkGK4_aGq2SAAAD remaining=0
